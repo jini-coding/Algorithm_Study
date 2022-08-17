@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int n;
+int N;
 
 struct node
 {
@@ -52,11 +52,11 @@ int main() {
     cin.tie(NULL);
     cout.tie(NULL);
 
-    cin >> n;
+    cin >> N;
 
     char t1, t2, t3;
     
-    for (int i = 1; i <= n; i++)
+    for (int i = 1; i <= N; i++)
     {
         cin >> t1 >> t2 >> t3;
         arr[t1].left = t2;
